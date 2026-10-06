@@ -27,6 +27,10 @@ public class CardTrick {
             magicHand[i] = c;
         }
 
+        Card luckyCard = new Card();
+        luckyCard.setValue(7);
+        luckyCard.setSuit(Card.SUITS[2]);
+
         Scanner in = new Scanner(System.in);
         System.out.print("Pick a card value (1-13): ");
         int value = in.nextInt();
